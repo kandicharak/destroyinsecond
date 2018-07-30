@@ -243,7 +243,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/destroyinsecond playstore/signedapk/destryouinsecon.keystore
+  AndroidKeystoreName: C:/Users/sumit/Documents/signedapk/destryouinsecon.keystore
   AndroidKeyaliasName: munna
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
