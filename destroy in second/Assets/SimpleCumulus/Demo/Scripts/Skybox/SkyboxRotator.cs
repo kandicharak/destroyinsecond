@@ -7,11 +7,11 @@ public class SkyboxRotator : MonoBehaviour
 
     protected void Update()
     {
-         RenderSettings.skybox.SetFloat("_Rotation", Time.time * RotationPerSecond);
+        if (_rotate) RenderSettings.skybox.SetFloat("_Rotation", Time.time * RotationPerSecond);
     }
 
-        public void ToggleSkyboxRotation()
-        {
-            _rotate = !_rotate;
-        } 
+    public void ToggleSkyboxRotation()
+    {
+        _rotate = !_rotate;
+    }
 }
